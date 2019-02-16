@@ -155,6 +155,7 @@ hr {
 }
 .navbar-toggle {
 	border-radius: 0;
+        float: left;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: rgb(210,184,151);
