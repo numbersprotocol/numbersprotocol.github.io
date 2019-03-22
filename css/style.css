@@ -746,6 +746,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 10px;
         font-family: "Poppings", sans;
         font-weight: 400;  /* regular */
+        font-size: 16px;
+}
+
+#footer i.fa {
+	font-size: 32px;
+	/*color: #faeaab;*/
+	color: rgb(255,255,255);
+	margin-top: 10px;
+}
+#footer i.fa:hover {
+	/*color: #1c424d;*/
+	color: rgb(210,184,151);
 }
 
 @media (max-width: 768px) {
