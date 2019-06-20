@@ -1,17 +1,20 @@
 body, html {
-	font-family: 'Lato', sans-serif;
+	font-family: "Verdana";
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #1c424d;
 }
 h1 {
-	font-weight: 700;
+	font-size: 36px;
+	font-weight: 600;
 }
 h1 strong {
 	font-weight: 900;
 }
 h2 {
+	font-family: "Verdana";
 	font-size: 36px;
+	letter-spacing: 0px;
 	margin: 0;
 }
 h3 {
@@ -81,7 +84,9 @@ ul, ol {
 	padding: 30px 0;
 }
 .section-title h2 {
+	font-family: "Verdana", sans;
 	font-weight: 400;
+	letter-spacing: 2px;
 	margin-bottom: 26px;
 }
 hr {
@@ -98,9 +103,9 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgb(48,48,48);
+	background-color: #fafafa;
 	border-color: rgba(231, 231, 231, 0);
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
         font-weight: 400;  /* regular */
 }
 #menu .navbar-header {
@@ -120,23 +125,18 @@ hr {
 	/*text-transform: uppercase;*/
 	font-size: 22px;
 	/*color: #d9e0e2;*/
-        color: rgb(255,255,255);
+        color: #666666;
 	font-weight: 500;
 	letter-spacing: 1px;
         /*display: inline-block;*/
 }
-/*
-#menu a.navbar-brand i.fa {
-	color: #f3ca27;
-}
-*/
 #menu a.navbar-brand img {
         width: 10%;
         /*float: left;*/
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #d9e0e2;
+	color: #666666;
 	font-size: 12px;
 	letter-spacing: 1px;
 }
@@ -158,8 +158,8 @@ hr {
         float: left;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: rgb(210,184,151);
-	border-color: rgb(255,255,255);
+	background-color: #d4cfbb;
+	border-color: #666666;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -171,9 +171,10 @@ header {
 	color: #d9e0e2;
 	position: relative;
 	height: 100%;
+	width: 100%;
 }
 header h1 {
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
         font-weight: 500;  /* medium */
         letter-spacing: 10pt;
         text-align: left;
@@ -193,17 +194,27 @@ header p {
 	padding-bottom: 170px;
 }
 .intro-text H1 {
-	font-size: 70px;
+	font-size: 60px;
+	font-family: "Verdana", sans;
 	text-transform: uppercase;
-	color: #d9e0e2;
-	letter-spacing: 2px;
+    color: #e2ddcb;
+	letter-spacing: 1px;
+}
+.intro-text p {
+	font-size: 24px;
+	font-family: "Verdana", sans;
+	text-transform: uppercase;
+	color: #e2ddcb;
+    text-align: left;
+	letter-spacing: 1px;
 }
 .color {
 	color: #f3ca27;
 }
 .btn-default {
 	color: rgb(255,255,255);
-	font-family: 'Poppings', sans;
+	font-family: 'Verdana', sans;
+	text-transform: uppercase;
 	background-color: rgb(210,184,151);
 	border: 0;
 	margin: 0 8px;
@@ -234,7 +245,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	background: rgb(48,48,48);
 }
 #services-section h2 {
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
+	    text-transform: uppercase;
         font-weight: 500;  /* medium */
         /*
         width: 1140pt;
@@ -243,7 +255,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
         line-height: 157pt;
         letter-spacing: 20pt;
         */
-        letter-spacing: 10pt;
+        letter-spacing: 1pt;
 }
 #services-section h4 {
 	color: #81969c;
@@ -506,17 +518,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', end
 	background: #a9971c;
 }
 #team-section h2 {
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
         font-weight: 400;  /* regular */
         letter-spacing: 10pt;
 }
 #team-section h3 {
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
         font-weight: 400;  /* regular */
         font-size: 20px;
 }
 #team-section h4 {
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
         font-weight: 300;  /* light */
         font-size: 16px;
 }
@@ -591,10 +603,10 @@ img.img-circle.team-img {
 	background: linear-gradient(to bottom, rgba(247,247,247,1) 0%, rgba(247,254,255,1) 20%, rgba(247,254,255,1) 100%, rgba(247,247,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
 	color: rgb(48,48,48);
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
 }
 #testimonials-section h2 {
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
         font-weight: 400;  /* regular */
         letter-spacing: 10pt;
 }
@@ -637,7 +649,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	background: #ffffff;
 }
 #contact-section h2 {
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
         font-weight: 500;  /* medium */
         letter-spacing: 10pt;
 }
@@ -744,7 +756,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer p {
 	margin-top: 10px;
-        font-family: "Poppings", sans;
+        font-family: "Verdana", sans;
         font-weight: 400;  /* regular */
         font-size: 16px;
 }
@@ -768,7 +780,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 @media (max-width: 603px) {
 #menu.navbar-default {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: #fafafa;
 }
 label {
 	float: none !important
