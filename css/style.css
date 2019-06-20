@@ -12,7 +12,7 @@ h1 strong {
 	font-weight: 900;
 }
 h2 {
-	font-family: "Verdana";
+	font-family: "Verdana", sans-serif;
 	font-size: 36px;
 	letter-spacing: 0px;
 	margin: 0;
@@ -27,8 +27,8 @@ h5 {
 	line-height: 20px;
 }
 p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
+	font-family: "Verdana", sans-serif;
+	font-size: 18px;
 }
 a {
 	color: #5b777f;
@@ -86,7 +86,9 @@ ul, ol {
 .section-title h2 {
 	font-family: "Verdana", sans;
 	font-weight: 400;
+	text-transform: uppercase;
 	letter-spacing: 2px;
+    color: #666666;
 	margin-bottom: 26px;
 }
 hr {
@@ -105,30 +107,29 @@ hr {
 #menu.navbar-default {
 	background-color: #fafafa;
 	border-color: rgba(231, 231, 231, 0);
-        font-family: "Verdana", sans;
-        font-weight: 400;  /* regular */
+    font-family: "Verdana", sans;
+    font-weight: 400;  /* regular */
 }
 #menu .navbar-header {
-        display: inline-block;
-        width: fit-content;
+    display: inline-block;
+    width: fit-content;
 }
 #menu .navbar-header img {
-        width: 10%;
-        /*float: left;*/
+    width: 10%;
 }
 #menu .navbar-icon {
-        width: 10%;
-        /*float: left;*/
-        padding: 15px 15px 15px 15px;
+    width: 10%;
+    /*float: left;*/
+    padding: 15px 15px 15px 15px;
 }
 #menu a.navbar-brand {
 	/*text-transform: uppercase;*/
 	font-size: 22px;
 	/*color: #d9e0e2;*/
-        color: #666666;
+    color: #666666;
 	font-weight: 500;
 	letter-spacing: 1px;
-        /*display: inline-block;*/
+    /*display: inline-block;*/
 }
 #menu a.navbar-brand img {
         width: 10%;
@@ -142,20 +143,20 @@ hr {
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
 	/*color: #f3ca27;*/
-	color: rgb(210,184,151);
+	color: #d9d5d2;
 }
 .on {
-	background-color: #0c0c0c !important;
+	background-color: #8c8987 !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	/*color: #f3ca27 !important;*/
-	color: rgb(210,184,151) !important;
+	color: #d9d5d2 !important;
 	background-color: transparent;
 }
 .navbar-toggle {
 	border-radius: 0;
-        float: left;
+    float: left;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #d4cfbb;
@@ -239,27 +240,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
         font-family: "DroidSerif", sans-serif;
         font-weight: 400;  /* regular */
         font-size: 20px;
-        text-align: left;
+        text-align: justify;
+	    margin-top: 16px;
+	    margin-left: 10px;
+	    margin-right: 10px;
+        color: #666666;
+        vertical-align: middle;
 }
 #services-section hr {
 	background: rgb(48,48,48);
 }
 #services-section h2 {
-        font-family: "Verdana", sans;
-	    text-transform: uppercase;
-        font-weight: 500;  /* medium */
-        /*
-        width: 1140pt;
-        height: 314pt;
-        font-size: 144pt;
-        line-height: 157pt;
-        letter-spacing: 20pt;
-        */
-        letter-spacing: 1pt;
+	font-family: "Verdana", sans;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 26px;
+    color: #666666;
 }
 #services-section h4 {
-	color: #81969c;
-	text-transform: uppercase;
+    color: #666666;
+}
+#services-section .thumbnail {
+	background: transparent;
+	border: 0;
+}
+img.img-normal.feature {
+	width: 120px;
+	height: 120px;
+	border: 1px solid transparent;
+	transition: all 0.5s;
 }
 .space {
 	margin-top: 40px;
@@ -498,29 +508,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 }
 /* Team Section */
 #team-section {
-        color: #ffffff;
+    color: #fafafa;
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	background: rgb(48,48,48); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(48,48,48,1) 0%, rgba(48,48,48,1) 25%, rgba(48,48,48,1) 75%, rgba(48,48,48,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(48,48,48,1) 0%, rgba(48,48,48,1) 25%, rgba(48,48,48,1) 75%, rgba(48,48,48,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(48,48,48,1) 0%, rgba(48,48,48,1) 25%, rgba(48,48,48,1) 75%, rgba(48,48,48,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
+	background: #9ac3c4; /* Old browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ac3c4', endColorstr='#9ac3c4', GradientType=0 ); /* IE6-9 */
 }
 #team-section p {
         font-family: "DroidSerif", sans-serif;
         font-weight: 400;  /* regular */
         font-size: 20px;
-        color: #9b9b9b;
+        color: #666666;
         text-align: justify;
 }
 #team-section hr {
 	background: #a9971c;
 }
 #team-section h2 {
-        font-family: "Verdana", sans;
-        font-weight: 400;  /* regular */
-        letter-spacing: 10pt;
+	font-family: "Verdana", sans;
+	font-weight: 400;
+	letter-spacing: 2px;
+    color: #fafafa;
 }
 #team-section h3 {
         font-family: "Verdana", sans;
@@ -537,6 +545,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', end
 	margin: 15px;
 	text-align: center;
 }
+
 img.img-circle.team-img {
 	width: 120px;
 	height: 120px;
@@ -550,7 +559,7 @@ img.img-circle.team-img {
 #team-section .thumbnail .caption {
 	padding: 9px;
 	/*color: #1c424d;*/
-	color: rgb(210,184,151);
+	color: #fafafa;
 }
 #team-section i.fa {
 	font-size: 16px;
@@ -597,21 +606,31 @@ img.img-circle.team-img {
 	color: #5b777f;
         */
 
-	background: rgb(247,247,247); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(247,254,255,1) 20%, rgba(247,254,255,1) 100%, rgba(247,247,247,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(247,254,255,1) 20%, rgba(247,254,255,1) 100%, rgba(247,247,247,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(247,247,247,1) 0%, rgba(247,254,255,1) 20%, rgba(247,254,255,1) 100%, rgba(247,247,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
+	background: #fafafa;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa', GradientType=0 ); /* IE6-9 */
 	color: rgb(48,48,48);
-        font-family: "Verdana", sans;
+    font-family: "Verdana", sans;
 }
 #testimonials-section h2 {
-        font-family: "Verdana", sans;
-        font-weight: 400;  /* regular */
-        letter-spacing: 10pt;
+    font-family: "Verdana", sans;
+    font-weight: 400;  /* regular */
+    letter-spacing: 2pt;
+    color: #666666;
 }
 #testimonial {
 	padding: 30px 0;
+}
+#testimonials-section p.caption{
+    font-family: "Verdana", sans;
+	margin-top: 30px;
+    font-size: 16px;
+    color: #666666;
+}
+#testimonials-section p.item-caption{
+    font-family: "Verdana", sans;
+	margin-top: 30px;
+    font-size: 16px;
+    color: #666666;
 }
 #testimonial .item {
 	display: block;
@@ -622,45 +641,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	font-weight: 400;
 	margin: 0 0 30px 0;
 }
+#testimonial .item p.media {
+	font-weight: 400;
+	margin: 0 0 30px 0;
+    color: #666666;
+}
 #testimonial .item p.quote {
         font-style: italic;
-        text-align: justify;
+        text-align: middle;
+        color: #666666;
 }
 #testimonial i.fa {
 	font-size: 16px;
 	/*color: #faeaab;*/
-	color: rgb(48,48,48);
+	color: #666666;
 	margin-top: 10px;
 }
 #testimonial i.fa:hover {
-	/*color: #1c424d;*/
-	color: rgb(210,184,151);
+	color: #d4cfbb;
 }
 /* Contact Section */
 #contact-section {
-        color: #ffffff;
+    color: #fafafa;
 	padding: 80px 0 20px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	background: rgb(210,184,151); /* Old browsers */
-	background: rgba(210,184,151,1); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: #d4cfbb;
 }
 #contact-section hr {
-	/*background: #a9971c;*/
-	background: #ffffff;
+	background: #fafafa;
 }
 #contact-section h2 {
         font-family: "Verdana", sans;
         font-weight: 500;  /* medium */
-        letter-spacing: 10pt;
+        letter-spacing: 2pt;
+        color: #fafafa
 }
 #contact-section h3 {
 	font-size: 20px;
 	font-weight: 400;
+    color: #fafafa
 }
 #contact-section label, p {
         font-family: "DroidSerif", sans-serif;
         font-weight: 400;  /* regular */
         font-size: 20px;
+        color: #fafafa
 }
 #contact-section form {
 	padding: 30px 0;
@@ -669,14 +694,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	/*color: #f8e287;*/
 	margin-bottom: 10px;
 }
-/*
-label {
-	font-size: 12px;
-	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
-	float: left;
-}
-*/
 #contact-section .form-control {
 	display: block;
 	width: 100%;
@@ -687,7 +704,7 @@ label {
 	background-color: #fff;
 	background-image: none;
 	border: 1px solid #ccc;
-	border-radius: 2px;
+	border-radius: 5px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: none;
@@ -711,7 +728,7 @@ label {
 	font-size: 26px;
 	padding: 4px 5px;
 	/*color: #f8e287;*/
-	color: #ffffff;
+	color: #fafafa;
 	transition: all 0.5s;
 }
 #contact-section .social i.fa:hover {
@@ -719,18 +736,18 @@ label {
 }
 #contact-section .btn {
 	background: transparent;
-	border: 2px solid #fef9e7;
+	border: 2px solid #dadada;
 	border-radius: 4px;
 	padding: 6px 14px;
 	margin-top: 20px;
-	color: #fef9e7;
+	color: #fafafa;
 	font-size: 16px;
 	transition: all 0.5s;
 }
 #contact-section .btn:hover, #contact-section .btn:focus {
-	background: #fef9e7;
+	background: #e2ddcb;
 	border: 2px solid #fef9e7;
-	color: #5b777f;
+	color: #666666;
 }
 #contact-section .text-danger {
 	color: #cc3300;
