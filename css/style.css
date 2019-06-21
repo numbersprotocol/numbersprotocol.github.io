@@ -259,6 +259,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
     color: #666666;
 }
 #services-section h4 {
+	font-family: "Verdana", sans;
     color: #666666;
 }
 #services-section .thumbnail {
