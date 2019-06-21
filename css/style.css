@@ -685,10 +685,39 @@ img.img-circle.team-img {
 	color: #d4cfbb;
 }
 /* Medium Section */
+/* https://github.com/chrisj74/vue-rss-blog/blob/master/src/components/Grid.vue */
+/* https://medium.com/@Sriram23/how-to-embed-medium-blogs-in-websites-e7f70feec920 */
+/* components not here: .btn */
 
 #post-container.rtb-modal .container{
   background: #fafafa !important;
-  color: #666666 !important;
+}
+#post-container.rtb-modal .container h1{
+   font-size:30px !important;
+   line-height: 36px !important;
+}
+#post-container.rtb-modal .container p.medium-feed-link{
+   position: fixed;
+   width: 80%;
+   background-color: rgb(217, 213, 210, .8);
+   /* make border transparent */
+   border: 10px solid rgb(217, 213, 210, .8);
+   -moz-background-clip: border;     /* Firefox 3.6 */
+   -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+   background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+   -moz-background-clip: padding;     /* Firefox 3.6 */
+   -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+   background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+   -moz-background-clip: content;     /* Firefox 3.6 */
+   -webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+   background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+   color: #fafafa;
+   border-radius: 4px;
+   bottom: 10px;
+   right: 0;
 }
 #post-container.rtb-modal .rtb-close {
    margin-top: 100px;
@@ -740,7 +769,6 @@ img.img-circle.team-img {
 #medium-section h2.title{
     font-family: "Verdana", sans;
     font-weight: 400;  /* regular */
-	font-size: 30px;
     letter-spacing: 2pt;
     color: #666666;
 	margin-top: 20px;
@@ -768,8 +796,6 @@ img.img-circle.team-img {
 	color: #cc3300;
 	text-align: left;
 }
-/* https://github.com/chrisj74/vue-rss-blog/blob/master/src/components/Grid.vue */
-/* https://medium.com/@Sriram23/how-to-embed-medium-blogs-in-websites-e7f70feec920 */
 #medium-section h2 {
 	    font-size: 18px;
         font-family: "Verdana", sans;
