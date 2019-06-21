@@ -34,6 +34,23 @@ a {
 	color: #5b777f;
 	transition: all 0.5s;
 }
+/* .btn is only used in medium display, but one has to set it as important */
+/* to overwrite the settings in bootstrap.css */
+/* be careful, this impact all button settings in this style.css */
+.btn {
+	background: #666666 !important;
+	border: 2px solid #dadada !important;
+	border-radius: 4px !important;
+	padding: 6px 14px !important;
+	margin-top: 20px !important;
+    color: #fafafa !important;
+	font-size: 16px;
+	transition: all 0.5s;
+}
+.btn:hover {
+	background: transparent !important;
+    color: #666666 !important;
+}
 a:hover, a:focus {
 	text-decoration: none;
 	color: #f1c40f;
@@ -218,18 +235,18 @@ header p {
 	color: #f3ca27;
 }
 .btn-default {
-	color: #fafafa;
+	color: #fafafa !important;
 	font-family: 'Verdana', sans;
 	text-transform: uppercase;
-	background-color: rgb(210,184,151);
+	background-color: transparent !important;
 	border: 0;
 	margin: 0 8px;
-	font-size: 18px;
+	font-size: 16px;
 	transition: all 0.5s;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	background-color: #f2eeeb;
-    color: #666666;
+	background-color: rgb(210,184,151) !important;
+    color: #fafafa !important;
 }
 /* Services Section */
 #services-section {
@@ -668,6 +685,51 @@ img.img-circle.team-img {
 	color: #d4cfbb;
 }
 /* Medium Section */
+
+#post-container.rtb-modal .container{
+  background: #fafafa !important;
+  color: #666666 !important;
+}
+#post-container.rtb-modal .rtb-close {
+   margin-top: 100px;
+   background: #666666 !important;
+   border-radius: 50%;
+   width: 40px !important;
+   height: 40px !important;
+   line-height: 30px !important;
+   position: fixed;
+   top: 10px;
+   right: 10px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+#post-container.rtb-modal .rtb-close span{
+    margin-top: 0px;
+    color:#fafafa !important;
+    font-size:30px !important;
+    font-family: "Verdana", sans;
+}
+
+#post-container.rtb-modal{
+    position:fixed;
+	margin-top: 100px;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100%;
+    z-index:999;
+    background:hsla(0,0%,100%,.9);
+    overflow:auto;padding-bottom:50px
+}
 #medium-section {
     color: #9ac3c4;
     font-family: "Verdana", sans;
@@ -685,6 +747,7 @@ img.img-circle.team-img {
 	margin-bottom: 60px;
 }
 #medium-section .btn {
+    display: none;
 	background: transparent;
 	border: 2px solid #dadada;
 	border-radius: 4px;
@@ -857,19 +920,19 @@ img.img-circle.team-img {
 	color: #032731;
 }
 #contact-section .btn {
-	background: transparent;
+	background: transparent !important;
 	border: 2px solid #dadada;
 	border-radius: 4px;
 	padding: 6px 14px;
 	margin-top: 20px;
-    color: #666666;
+    color: #666666 !important;
 	font-size: 16px;
 	transition: all 0.5s;
 }
 #contact-section .btn:hover, #contact-section .btn:focus {
-	background: #e2ddcb;
+	background: #e2ddcb !important;
 	border: 2px solid #fef9e7;
-	color: #666666;
+	color: #666666 !important;
 }
 #contact-section .text-danger {
 	color: #cc3300;
