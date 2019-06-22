@@ -43,7 +43,7 @@ a {
 	border-radius: 4px !important;
 	padding: 6px 14px !important;
 	margin-top: 20px !important;
-    color: #fafafa !important;
+    color: #f6f6f6 !important;
 	font-size: 16px;
 	transition: all 0.5s;
 }
@@ -122,7 +122,7 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fafafa;
+	background-color: #f6f6f6;
 	border-color: #d9d5d2;
     font-family: "Verdana", sans;
     font-weight: 400;  /* regular */
@@ -235,7 +235,7 @@ header p {
 	color: #f3ca27;
 }
 .btn-default {
-	color: #fafafa !important;
+	color: #f6f6f6 !important;
 	font-family: 'Verdana', sans;
 	text-transform: uppercase;
 	background-color: transparent !important;
@@ -246,7 +246,7 @@ header p {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	background-color: rgb(210,184,151) !important;
-    color: #fafafa !important;
+    color: #f6f6f6 !important;
 }
 /* Services Section */
 #services-section {
@@ -532,7 +532,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 }
 /* Team Section */
 #team-section {
-    color: #fafafa;
+    color: #f6f6f6;
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
 	background: #9ac3c4; /* Old browsers */
@@ -552,7 +552,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	font-family: "Verdana", sans;
 	font-weight: 400;
 	letter-spacing: 2px;
-    color: #fafafa;
+    color: #f6f6f6;
 }
 #team-section h3 {
         font-family: "Verdana", sans;
@@ -583,7 +583,7 @@ img.img-circle.team-img {
 #team-section .thumbnail .caption {
 	padding: 9px;
 	/*color: #1c424d;*/
-	color: #fafafa;
+	color: #f6f6f6;
 }
 #team-section i.fa {
 	font-size: 16px;
@@ -630,8 +630,8 @@ img.img-circle.team-img {
 	color: #5b777f;
         */
 
-	background: #fafafa;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa', GradientType=0 ); /* IE6-9 */
+	background: #f6f6f6;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f6f6f6', GradientType=0 ); /* IE6-9 */
 	color: rgb(48,48,48);
     font-family: "Verdana", sans;
 }
@@ -690,7 +690,7 @@ img.img-circle.team-img {
 /* components not here: .btn */
 
 #post-container.rtb-modal .container{
-  background: #fafafa !important;
+  background: #f6f6f6 !important;
 }
 #post-container.rtb-modal .container h1{
    font-size:30px !important;
@@ -714,7 +714,7 @@ img.img-circle.team-img {
    -webkit-background-clip: content;  /* Safari 4? Chrome 6? */
    background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
 
-   color: #fafafa;
+   color: #f6f6f6;
    border-radius: 4px;
    bottom: 10px;
    right: 0;
@@ -743,7 +743,7 @@ img.img-circle.team-img {
 
 #post-container.rtb-modal .rtb-close span{
     margin-top: 0px;
-    color:#fafafa !important;
+    color:#f6f6f6 !important;
     font-size:30px !important;
     font-family: "Verdana", sans;
 }
@@ -876,10 +876,10 @@ img.img-circle.team-img {
     color: #666666;
 	padding: 80px 0 20px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	background: #fafafa;
+	background: #f6f6f6;
 }
 #contact-section hr {
-	background: #fafafa;
+	background: #f6f6f6;
 }
 #contact-section h2 {
         font-family: "Verdana", sans;
@@ -939,7 +939,7 @@ img.img-circle.team-img {
 	font-size: 26px;
 	padding: 4px 5px;
 	/*color: #f8e287;*/
-	color: #fafafa;
+	color: #f6f6f6;
 	transition: all 0.5s;
 }
 #contact-section .social i.fa:hover {
@@ -1008,7 +1008,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 @media (max-width: 603px) {
 #menu.navbar-default {
-	background-color: #fafafa;
+	background-color: #f6f6f6;
 }
 label {
 	float: none !important
