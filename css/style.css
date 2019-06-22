@@ -801,6 +801,7 @@ img.img-circle.team-img {
         font-family: "Verdana", sans;
         font-weight: 500;  /* medium */
         letter-spacing: 2pt;
+        height: 140px;
         color: #666666;
 }
 #medium-section .post-date {
@@ -861,7 +862,11 @@ img.img-circle.team-img {
 #medium-section .rtb-col {
   margin-bottom: 20px;
 }
+#medium-section .author.mt-2 {
+  display: none;
+}
 #medium-section .excerpt {
+  display: none;
   max-height: 15em;
   text-overflow: ellipsis;
   overflow: hidden;
