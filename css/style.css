@@ -286,8 +286,7 @@ header p {
     text-align: center;
 	margin-top: 100px; /*25% image size plus image margin*/
 	color: #3f888f;
-    vertical-align: middle;
-    line-height: 10%;
+    line-height: 150%;
 }
 #technologies-section h2 {
 	font-family: "Verdana", sans;
