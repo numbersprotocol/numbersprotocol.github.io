@@ -116,7 +116,11 @@ hr {
 	border: 0;
 	margin-bottom: 30px;
 }
+
+/**************/
 /* Navigation */
+/**************/
+
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -172,7 +176,11 @@ hr {
 	color: #bfbdba !important;
 	background-color: transparent;
 }
+
+/************************/
 /*Mobile menu bar button*/
+/************************/
+
 .navbar-toggle {
 	margin-left: 10px;
 	border-radius: 2;
@@ -248,16 +256,91 @@ header p {
 	background-color: rgb(210,184,151) !important;
     color: #fafafa !important;
 }
+
+/************************/
+/* Technologies Section */
+/************************/
+
+#technologies-section {
+	padding: 80px 0 100px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
+	background: #fafafa;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
+	color: #666666;
+}
+#technologies-section p {
+	font-family: "Verdana", sans;
+    font-weight: 400;  /* regular */
+    font-size: 16px;
+    text-align: justify;
+	margin-top: 16px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #666666;
+    vertical-align: middle;
+}
+#technologies-section h3 {
+	font-family: "Verdana", sans;
+    font-weight: 400;  /* regular */
+    font-size: 24px;
+    text-align: center;
+	margin-top: 100px; /*25% image size plus image margin*/
+	color: #3f888f;
+    vertical-align: middle;
+    line-height: 10%;
+}
+#technologies-section h2 {
+	font-family: "Verdana", sans;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 26px;
+	color: #666666;
+}
+#technologies-section .service:hover>i.fa {
+        color: #d9e0e2;
+	background: #8c3837;
+}
+#technologies-section .techimg {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: transparent;
+}
+#technologies-section .techdesc {
+        height: 100px;
+}
+#technologies-section img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 400px;
+        object-fit: contain;
+        background-color: #ffffff;
+}
+
+#technologies-section .btn-default {
+	/*color: #ffffff;*/
+	font-family: "Verdana", sans;
+	color: #3f888f !important;
+	/*color: #8c8987 !important;*/
+    border: 0px !important;
+	background-color: transparent !important;
+	font-size: 18px;
+	transition: all 0.5s;
+}
+#technologies-section .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	color: #ffa32d;
+}
+
+
+/********************/
 /* Services Section */
+/********************/
 #services-section {
 	padding: 80px 0 100px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: rgb(247,247,247); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(247,254,255,1) 20%, rgba(247,254,255,1) 100%, rgba(247,247,247,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(247,254,255,1) 20%, rgba(247,254,255,1) 100%, rgba(247,247,247,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(247,247,247,1) 0%, rgba(247,254,255,1) 20%, rgba(247,254,255,1) 100%, rgba(247,247,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: rgb(48,48,48);
+	background: #9ac3c4;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
+	color: #fafafa;
 }
 #services-section p {
         font-family: "DroidSerif", sans-serif;
@@ -267,7 +350,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	    margin-top: 16px;
 	    margin-left: 10px;
 	    margin-right: 10px;
-        color: #666666;
+	    color: #fafafa;
         vertical-align: middle;
 }
 #services-section hr {
@@ -279,11 +362,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-bottom: 26px;
-    color: #666666;
+	color: #fafafa;
 }
 #services-section h4 {
 	font-family: "Verdana", sans;
-    color: #666666;
+    color: #fafafa;
 }
 #services-section .thumbnail {
 	background: transparent;
@@ -313,8 +396,10 @@ img.img-normal.feature {
 #services-section .service:hover>i.fa {
 	background: #0b3540;
 }
-/* Gallery Section 
-==============================*/
+
+/********************/
+/* Gallery Section  */
+/********************/
 #works-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
@@ -505,19 +590,20 @@ ol.type li a:hover {
 	background-color: #032e3a;
 	border-color: #032e3a;
 }
+
+/*****************/
 /* About Section */
+/*****************/
+
 #about-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: rgb(3,39,49); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
+	background: #d3e5e7;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
 	color: #5b777f;
 }
 #about-section h4 {
-	color: #81969c;
+	color: #666666;
 	font-size: 20px;
 }
 #about-section li {
@@ -530,12 +616,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	color: #f3ca27;
 	padding-right: 5px;
 }
+
+/****************/
 /* Team Section */
+/****************/
+
 #team-section {
-    color: #fafafa;
+    color: #666666;
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	background: #9ac3c4; /* Old browsers */
+	background: #d3e5e7; /* Old browsers */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ac3c4', endColorstr='#9ac3c4', GradientType=0 ); /* IE6-9 */
 }
 #team-section p {
@@ -552,7 +642,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	font-family: "Verdana", sans;
 	font-weight: 400;
 	letter-spacing: 2px;
-    color: #fafafa;
+    color: #666666;
 }
 #team-section h3 {
         font-family: "Verdana", sans;
@@ -583,12 +673,11 @@ img.img-circle.team-img {
 #team-section .thumbnail .caption {
 	padding: 9px;
 	/*color: #1c424d;*/
-	color: #fafafa;
+    color: #666666;
 }
 #team-section i.fa {
 	font-size: 16px;
-	/*color: #faeaab;*/
-	color: rgb(255,255,255);
+    color: #666666;
 	margin-top: 10px;
 }
 #team-section i.fa:hover {
@@ -619,7 +708,10 @@ img.img-circle.team-img {
 	/*background: #f1c40f;*/
 	background: rgb(210,184,151);
 }
+/************************/
 /* Testimonials Section */
+/************************/
+
 #testimonials-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
@@ -644,6 +736,7 @@ img.img-circle.team-img {
 #testimonial {
 	padding: 30px 0;
 }
+
 #testimonials-section p.caption{
     font-family: "Verdana", sans;
 	margin-top: 30px;
@@ -672,7 +765,7 @@ img.img-circle.team-img {
 }
 #testimonial .item p.quote {
         font-style: italic;
-        text-align: middle;
+        text-align: justify;
         color: #666666;
 }
 #testimonial i.fa {
@@ -684,7 +777,11 @@ img.img-circle.team-img {
 #testimonial i.fa:hover {
 	color: #d4cfbb;
 }
+
+/******************/
 /* Medium Section */
+/******************/
+
 /* https://github.com/chrisj74/vue-rss-blog/blob/master/src/components/Grid.vue */
 /* https://medium.com/@Sriram23/how-to-embed-medium-blogs-in-websites-e7f70feec920 */
 /* components not here: .btn */
@@ -764,15 +861,16 @@ img.img-circle.team-img {
     font-family: "Verdana", sans;
 	padding: 80px 0 20px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	background: #f2eeeb;
+	background: #e2ddcb;
 }
 #medium-section h2.title{
     font-family: "Verdana", sans;
     font-weight: 400;  /* regular */
+    font-size: 30px !important;
     letter-spacing: 2pt;
     color: #666666;
 	margin-top: 20px;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 #medium-section .btn {
     display: none;
@@ -876,7 +974,11 @@ img.img-circle.team-img {
 #medium-section .read-more {
   position: relative;
 }
+
+/*******************/
 /* Contact Section */
+/*******************/
+
 #contact-section {
     color: #666666;
 	padding: 80px 0 20px 0;
@@ -979,9 +1081,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
+/**********/
 /* Footer */
+/**********/
+
 #footer {
-	background: #666666;
+	background: #fafafa;
 	padding: 15px 0 10px 0;
 	color: #fafafa;
 	text-align: center;
@@ -992,13 +1098,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     font-family: "Verdana", sans;
     font-weight: 400;  /* regular */
     font-size: 16px;
-    color: #ffffff;
+    color: #666666;
 }
 
 #footer i.fa {
 	font-size: 32px;
 	/*color: #faeaab;*/
-	color: rgb(255,255,255);
+	color: #666666;
 	margin-top: 10px;
 }
 #footer i.fa:hover {
@@ -1006,7 +1112,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: rgb(210,184,151);
 }
 #footer .btn {
-    background-color: #fafafa !important;
+    background-color: #e2ddcb !important;
     color: #666666 !important;
 	text-transform: uppercase;
 	border: 0 solid !important;
@@ -1015,7 +1121,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	transition: all 0.5s;
 }
 #footer .btn:hover, .btn:focus, .btn.focus, .btn:active, .btn.active {
-	background-color: #d9d5d2 !important;
+	background-color: #666666 !important;
+    color: #000000 !important;
 }
 
 
@@ -1041,4 +1148,115 @@ label {
 .hover-bg .hover-text {
 	padding: 22% 10%;
 }
+}
+
+/*****************/
+/* About Section */
+/*****************/
+
+#about-section {
+    color: #666666;
+    font-family: "Verdana", sans;
+	padding: 80px 0 100px 0;
+	background: #fafafa;
+}
+#about-section h2{
+    font-family: "Verdana", sans;
+    font-weight: 400;  /* regular */
+    letter-spacing: 2pt;
+    color: #666666;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+#about-section p {
+	color: #666666;
+    text-align: justify;
+}
+#about-section h4 {
+	color: #d9e0e2;
+	font-size: 20px;
+}
+#about-section li {
+	margin-bottom: 6px;
+	list-style: none;
+	padding: 0;
+}
+#about-section li:before {
+	content: "✓";
+	color: #f3ca27;
+	padding-right: 5px;
+}
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  15% {
+    left: 0%;
+  }
+  20% {
+    left: -100%;
+  }
+  35% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  55% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+div#slider {
+  overflow: hidden;
+}
+
+div#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+.photo-container {
+  background-color: black;
+  position: relative;
+  padding-bottom: 35%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.photo-container div {
+  position: absolute;
+  margin-left: 30px;
+  margin-right: 30px;
+  top: 0;
+  left: 0;
+  width: calc(100% - 60px);
+  height: 100%;
 }
