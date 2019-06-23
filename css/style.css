@@ -981,17 +981,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer */
 #footer {
-	background: rgb(48,48,48);
+	background: #666666;
 	padding: 15px 0 10px 0;
-	color: rgb(255,255,255);
+	color: #fafafa;
 	text-align: center;
 	padding: 80px 0 30px 0;
 }
 #footer p {
 	margin-top: 10px;
-        font-family: "Verdana", sans;
-        font-weight: 400;  /* regular */
-        font-size: 16px;
+    font-family: "Verdana", sans;
+    font-weight: 400;  /* regular */
+    font-size: 16px;
+    color: #ffffff;
 }
 
 #footer i.fa {
@@ -1004,6 +1005,19 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	/*color: #1c424d;*/
 	color: rgb(210,184,151);
 }
+#footer .btn {
+    background-color: #fafafa !important;
+    color: #666666 !important;
+	text-transform: uppercase;
+	border: 0 solid !important;
+	margin: 0 0px;
+	font-size: 16px;
+	transition: all 0.5s;
+}
+#footer .btn:hover, .btn:focus, .btn.focus, .btn:active, .btn.active {
+	background-color: #d9d5d2 !important;
+}
+
 
 @media (max-width: 768px) {
 .content {
