@@ -282,9 +282,11 @@ header p {
 #technologies-section h3 {
 	font-family: "Verdana", sans;
     font-weight: 400;  /* regular */
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
 	margin-top: 100px; /*25% image size plus image margin*/
+	margin-left: 10%;
+	margin-right: 10%;
 	color: #3f888f;
     line-height: 150%;
 }
@@ -297,7 +299,7 @@ header p {
 	color: #666666;
 }
 #technologies-section .service:hover>i.fa {
-        color: #d9e0e2;
+    color: #d9e0e2;
 	background: #8c3837;
 }
 #technologies-section .techimg {
@@ -311,7 +313,8 @@ header p {
 #technologies-section img {
         margin-top: 50px;
         margin-bottom: 50px;
-        height: 400px;
+        width: 100%;
+        /*height: 400px;*/
         object-fit: contain;
         background-color: #ffffff;
 }
@@ -327,7 +330,7 @@ header p {
 	transition: all 0.5s;
 }
 #technologies-section .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #ffa32d;
+	color: #ffa32d !important;
 }
 
 
@@ -407,7 +410,8 @@ img.img-normal.thumbnail {
     background-color: transparent;
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 400px;
+    width: 80%;
+    /*height: 400px;*/
     object-fit: contain;
 }
 #services-section .techdesc {
@@ -607,32 +611,6 @@ ol.type li a:hover {
 	color: #a7b6ba;
 	background-color: #032e3a;
 	border-color: #032e3a;
-}
-
-/*****************/
-/* About Section */
-/*****************/
-
-#about-section {
-	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: #d3e5e7;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: #5b777f;
-}
-#about-section h4 {
-	color: #666666;
-	font-size: 20px;
-}
-#about-section li {
-	margin-bottom: 6px;
-	list-style: none;
-	padding: 0;
-}
-#about-section li:before {
-	content: "✓";
-	color: #f3ca27;
-	padding-right: 5px;
 }
 
 /****************/
@@ -1186,9 +1164,14 @@ label {
 	margin-top: 20px;
 	margin-bottom: 60px;
 }
-#about-section p {
+#about-section h3 {
+    font-family: "Verdana", sans;
+    font-weight: 400;  /* regular */
 	color: #666666;
     text-align: justify;
+	font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 150%;
 }
 #about-section h4 {
 	color: #d9e0e2;
