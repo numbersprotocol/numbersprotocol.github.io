@@ -271,7 +271,7 @@ header p {
 #technologies-section p {
 	font-family: "Verdana", sans;
     font-weight: 400;  /* regular */
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
 	margin-top: 16px;
 	margin-left: 10px;
@@ -346,11 +346,9 @@ header p {
         font-weight: 400;  /* regular */
         font-size: 20px;
         text-align: justify;
-	    margin-top: 16px;
 	    margin-left: 10px;
 	    margin-right: 10px;
 	    color: #fafafa;
-        vertical-align: middle;
 }
 #services-section hr {
 	background: rgb(48,48,48);
@@ -364,17 +362,23 @@ header p {
 	color: #fafafa;
 }
 #services-section h4 {
+    margin-top: 50px;
 	font-family: "Verdana", sans;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
     color: #fafafa;
 }
 #services-section .thumbnail {
 	background: transparent;
 	border: 0;
 }
-img.img-normal.feature {
-	width: 120px;
-	height: 120px;
-	border: 1px solid transparent;
+img.img-normal.thumbnail {
+	width: 100px;
+	height: 100px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	border: 0px solid transparent;
 	transition: all 0.5s;
 }
 .space {
@@ -395,6 +399,21 @@ img.img-normal.feature {
 #services-section .service:hover>i.fa {
 	background: #0b3540;
 }
+#services-section .techimg {
+    padding-top: 0px;
+    padding-bottom: 0px;
+	border: 1px solid #fafafa;
+	border-radius: 5px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+    object-fit: contain;
+}
+#services-section .techdesc {
+        height: 100px;
+}
+
 
 /********************/
 /* Gallery Section  */
