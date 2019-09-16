@@ -1,6 +1,6 @@
 body, html {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 /*	font-family: "Verdana", sans-serif; */
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -8,29 +8,29 @@ body, html {
 }
 h1 {
 	font-size: 36px;
-	font-weight: 700; /* bold */
+	font-weight: 600; /* bold */
 }
 h1 strong {
-	font-weight: 900;
+	font-weight: 700;
 }
 /*Called by medium section*/
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;  /* medium */
+    font-weight: 400;  /* medium */
     letter-spacing: 2pt;
 }
 h3 {
 	font-size: 16px;
-	font-weight: 700; /* bold */
+	font-weight: 600; /* bold */
 }
 h5 {
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 20px;
 }
 p {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;  /* medium */
+    font-weight: 400;  /* medium */
 	font-size: 18px;
 }
 a {
@@ -105,7 +105,7 @@ ul, ol {
 }
 .section-title h2 {
     font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 2px;
     color: #666666;
@@ -132,7 +132,7 @@ hr {
 	background-color: #ffffff;
 	border-color: #d9d5d2;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;  /* regular */
+    font-weight: 400;  /* regular */
 }
 #menu .navbar-header {
     display: inline-block;
@@ -151,7 +151,7 @@ hr {
 	font-size: 22px;
 	/*color: #d9e0e2;*/
 	color: #73706e;
-	font-weight: 600;
+	font-weight: 400;
 	letter-spacing: 1px;
     /*display: inline-block;*/
 }
@@ -209,7 +209,7 @@ header {
 }
 header h1 {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700;  /* bold */
+        font-weight: 600;  /* bold */
         letter-spacing: 10pt;
         text-align: left;
 }
@@ -228,7 +228,8 @@ header p {
 	padding-bottom: 170px;
 }
 .intro-text H1 {
-	font-size: 60px;
+	font-size: 50px;
+    font-weight: 700;  /* extra bold */
     font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
     color: #ffffff;
@@ -248,7 +249,7 @@ header p {
 .btn-default {
 	color: #ffffff !important;
     font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: uppercase;
 	background-color: transparent !important;
 	border: 0;
@@ -273,7 +274,7 @@ header p {
 	color: #666666;
 }
 #technologies-section p {
-    font-weight: 600;  /* regular */
+    font-weight: 400;  /* regular */
     font-size: 18px;
     text-align: justify;
 	margin-top: 10%;
@@ -284,7 +285,7 @@ header p {
     vertical-align: middle;
 }
 #technologies-section h3 {
-    font-weight: 600;  /* regular */
+    font-weight: 400;  /* regular */
     font-size: 22px;
     text-align: center;
 	margin-top: 10%;
@@ -294,7 +295,7 @@ header p {
 	color: #73706e;
 }
 #technologies-section h2 {
-	font-weight: 700; /* bold */
+	font-weight: 600; /* bold */
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-bottom: 26px;
@@ -346,7 +347,7 @@ header p {
 	color: #ffffff;
 }
 #services-section p {
-        font-weight: 600;  /* regular */
+        font-weight: 400;  /* regular */
         font-size: 20px;
         text-align: justify;
 	    margin-left: 10px;
@@ -357,7 +358,7 @@ header p {
 	background: rgb(48,48,48);
 }
 #services-section h2 {
-	font-weight: 700; /* bold */
+	font-weight: 600; /* bold */
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-bottom: 26px;
@@ -365,7 +366,7 @@ header p {
 }
 #services-section h4 {
     margin-top: 50px;
-	font-weight: 600;
+	font-weight: 400;
 	letter-spacing: 2px;
 	text-transform: uppercase;
     color: #ffffff;
@@ -623,7 +624,7 @@ ol.type li a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c8987', endColorstr='#8c8987', GradientType=0 ); /* IE6-9 */
 }
 #team-section p {
-        font-weight: 600;  /* regular */
+        font-weight: 400;  /* regular */
         font-size: 20px;
         color: #666666;
         text-align: justify;
@@ -632,16 +633,16 @@ ol.type li a:hover {
 	background: #a9971c;
 }
 #team-section h2 {
-	font-weight: 700; /* bold */
+	font-weight: 600; /* bold */
 	letter-spacing: 2px;
     color: #666666;
 }
 #team-section h3 {
-        font-weight: 600;  /* regular */
+        font-weight: 400;  /* regular */
         font-size: 20px;
 }
 #team-section h4 {
-        font-weight: 600;  /* light */
+        font-weight: 400;  /* light */
         font-size: 16px;
 }
 #team-section .item {
@@ -717,7 +718,7 @@ img.img-circle.team-img {
 	color: rgb(48,48,48);
 }
 #testimonials-section h2 {
-    font-weight: 700;  /* bold */
+    font-weight: 600;  /* bold */
     letter-spacing: 2pt;
     color: #666666;
 }
@@ -741,11 +742,11 @@ img.img-circle.team-img {
 	height: auto;
 }
 #testimonial .item p {
-	font-weight: 600;
+	font-weight: 400;
 	margin: 0 0 30px 0;
 }
 #testimonial .item p.media {
-	font-weight: 600;
+	font-weight: 400;
 	margin: 0 0 30px 0;
     color: #666666;
 }
@@ -848,7 +849,7 @@ img.img-circle.team-img {
 	background: #f2eeeb;
 }
 #medium-section h2.title{
-    font-weight: 700;  /* bold */
+    font-weight: 600;  /* bold */
     font-size: 30px !important;
     letter-spacing: 2pt;
     color: #666666;
@@ -879,7 +880,7 @@ img.img-circle.team-img {
 }
 #medium-section h2 {
 	    font-size: 18px;
-        font-weight: 600;  /* medium */
+        font-weight: 400;  /* medium */
         letter-spacing: 2pt;
         height: 140px;
         color: #666666;
@@ -971,17 +972,17 @@ img.img-circle.team-img {
 	background: #ffffff;
 }
 #contact-section h2 {
-        font-weight: 600;  /* medium */
+        font-weight: 400;  /* medium */
         letter-spacing: 2pt;
         color: #666666;
 }
 #contact-section h3 {
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 400;
     color: #666666;
 }
 #contact-section label, p {
-        font-weight: 600;  /* regular */
+        font-weight: 400;  /* regular */
         font-size: 20px;
         color: #666666;
 }
@@ -1075,7 +1076,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer p {
 	margin-top: 10px;
-    font-weight: 600;  /* regular */
+    font-weight: 400;  /* regular */
     font-size: 16px;
     color: #666666;
 }
@@ -1139,14 +1140,14 @@ label {
 	background: #ffffff;
 }
 #about-section h2{
-    font-weight: 700;  /* bold */
+    font-weight: 600;  /* bold */
     letter-spacing: 2pt;
     color: #666666;
 	margin-top: 20px;
 	margin-bottom: 60px;
 }
 #about-section h3 {
-    font-weight: 600;  /* regular */
+    font-weight: 400;  /* regular */
 	color: #666666;
     text-align: justify;
 	font-size: 18px;
